@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Get Set Shapes</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <h1>Shape Calculator</h1>
 
+    <div class="form-section">
+      <h2>Rectangle</h2>
+      <input type="number" id="rect-width" placeholder="Width" min="1">
+      <input type="number" id="rect-height" placeholder="Height" min="1">
+      <button id="calc-rectangle">Calculate Rectangle</button>
+      <div id="rectangle-output" class="output"></div>
+    </div>
+
+    <div class="form-section">
+      <h2>Square</h2>
+      <input type="number" id="square-side" placeholder="Side" min="1">
+      <button id="calc-square">Calculate Square</button>
+      <div id="square-output" class="output"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
