@@ -1,0 +1,4 @@
+{
+  "testRepo": "get-set-shapes-solutions",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
+}
